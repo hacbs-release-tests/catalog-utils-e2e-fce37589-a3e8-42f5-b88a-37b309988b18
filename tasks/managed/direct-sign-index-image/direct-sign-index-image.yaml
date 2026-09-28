@@ -163,7 +163,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: direct-sign-index-image
-      image: quay.io/konflux-ci/release-service-utils@sha256:b6b83bedcbdc135550e8977c38d25a6c4b807f77b7b1ae460b0910e94c8f599e
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:a7249696f3f51ef0f15165986a7163dfc0ead173bf453fc2bd9108b43bbcb36b
       computeResources:
         limits:
           memory: 1Gi

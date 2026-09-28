@@ -132,7 +132,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: run-script
-      image: quay.io/konflux-ci/release-service-utils@sha256:2d393d882d16e3b948dbf2320ca293229a59d66ca646502e66fb00009176d747
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:a7249696f3f51ef0f15165986a7163dfc0ead173bf453fc2bd9108b43bbcb36b
       computeResources:
         limits:
           memory: 512Mi
